@@ -84,6 +84,8 @@ int power(int number, int source, int target)
 		}
 	}
 
+	int length = strlen(res);
+	
 	for (long int q = 0; q < length / 2; q++)
 	{
 		res[q] += res[length - 1 - q];
